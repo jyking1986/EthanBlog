@@ -1,2 +1,1 @@
-This blog system is based on Umbraco CMS. And can be used public or private.
-Any question please contact: ethan.wang.j@gmail.com
+This repository will include some POC projects, just for conceptual practice only.
