@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "OAuth Proof";
+}
+<a id="login-sina">login in sina</a>
+@section scripts{
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#login-sina").click(function () {
+                open();
+            });
+        });
+        function open() {
+            WB2.login(function () {
+                alert(1);
+            });
+        }
+        
+    </script>
+}
+
+
+
